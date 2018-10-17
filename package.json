@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.jsx",
   "scripts": {
-    "dev": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html/"
+    "dev": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html/"
   },
   "keywords": [
     "react",
