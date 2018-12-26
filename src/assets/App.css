@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  background: #2d3436;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #fdcb6e;
+  letter-spacing: 5px;
+}
+
+#subtext {
+  color: #55efc4;
+  font-weight: normal;
+}
+
+#line {
+  width: 50%;
+  margin: 50px auto;
+  border-bottom: 1px solid white;
+}
+
+#instruction {
+  color: #55efc4;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#react-logo {
+  background: url('https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  animation: rotate 5s linear infinite;
+  height: 70px;
+  width: 70px;
+  margin: 20px auto;
+}
+
+.link {
+  color: #fdcb6e;
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+
+.link:hover {
+  color: #55efc4;
+}
