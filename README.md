@@ -1,5 +1,7 @@
 # ReactJS with ParcelJS Boilerplate
 
+[Demo](https://react-parcel-boilerplate.firebaseapp.com/)
+
 This is a very simple react boilerplate with zero configuration, thanks to parceljs bundler.
 
 ## Quick Setup
