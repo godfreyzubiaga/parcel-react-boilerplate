@@ -1,5 +1,3 @@
-const prettierOptions = require('./prettier.config');
-
 module.exports = {
   parser: 'babel-eslint',
   extends: ['airbnb', 'prettier', 'prettier/react'],
@@ -18,7 +16,7 @@ module.exports = {
     },
   },
   rules: {
-    'prettier/prettier': ['error', prettierOptions],
+    'prettier/prettier': ['error'],
     'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
     'import/imports-first': 0,
@@ -33,7 +31,7 @@ module.exports = {
       2,
       2,
       {
-        SwitchCase: 1
+        SwitchCase: 1,
       },
     ],
     'jsx-a11y/aria-props': 2,
