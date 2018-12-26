@@ -4,6 +4,27 @@ body {
   background: #2d3436;
 }
 
+@media (max-width: 500px) {
+  body {
+    font-size: 0.9em;
+  }
+
+  #line {
+    width: 80%;
+    margin: 50px auto;
+    border-bottom: 1px solid white;
+  }
+}
+
+@media (min-width: 500px) {
+
+  #line {
+    width: 80%;
+    margin: 50px auto;
+    border-bottom: 1px solid white;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -14,29 +35,32 @@ p {
   margin: 5px;
 }
 
-.center {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   color: #fdcb6e;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#title {
   letter-spacing: 5px;
 }
 
 #subtext {
   color: #55efc4;
   font-weight: normal;
-}
-
-#line {
-  width: 50%;
-  margin: 50px auto;
-  border-bottom: 1px solid white;
+  letter-spacing: 5px;
 }
 
 #instruction {
   color: #55efc4;
+  letter-spacing: 5px;
 }
 
 @keyframes rotate {
@@ -56,7 +80,12 @@ p {
   animation: rotate 5s linear infinite;
   height: 70px;
   width: 70px;
-  margin: 20px auto;
+  margin: 15px auto;
+}
+
+#information {
+  width: 100%;
+  margin: 0 auto;
 }
 
 .link {
@@ -68,4 +97,9 @@ p {
 
 .link:hover {
   color: #55efc4;
+}
+
+#footer {
+  color: #fdcb6e;
+  margin-top: 50px;
 }
