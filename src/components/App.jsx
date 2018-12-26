@@ -9,7 +9,7 @@ const App = () => {
       <span id="line" />
       <div id="instruction">
         <p>Edit src/components/App.jsx to start</p>
-        <p>Edit assets/src/App.css to style</p>
+        <p>Edit src/assets/App.css to style</p>
       </div>
       <div id="react-logo" />
       <div id="information">
