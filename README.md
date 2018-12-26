@@ -4,7 +4,7 @@ This is a very simple react boilerplate with zero configuration, thanks to parce
 
 ## Quick Setup
 
-1. Clone this repo using `git clone https://github.com/godfreyzubiaga/parcel-react-boilerplate.git` your-folder-name
+1. Clone this repo using `git clone https://github.com/godfreyzubiaga/parcel-react-boilerplate.git your-folder-name`
 2. Redirect to proper folder `cd your-folder-name`
 3. Install dependencies `npm i` or `yarn`
 4. Start the boilerplate `npm run start`
