@@ -1,10 +1,10 @@
 {
   "name": "parcel-react-boilerplate",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Just a very simple ReactJS with ParcelJS boilerplate",
   "main": "index.jsx",
   "scripts": {
-    "dev": "parcel ./public/index.html",
+    "start": "parcel ./public/index.html",
     "build": "parcel build ./public/index.html/"
   },
   "keywords": [
