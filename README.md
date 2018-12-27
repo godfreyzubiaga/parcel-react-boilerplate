@@ -1,5 +1,7 @@
 # ReactJS with ParcelJS Boilerplate
 
+<p align="center"><img src="https://res.cloudinary.com/starksten/image/upload/v1545892359/GRPA_Logo_2.png"></p>
+
 [Demo](https://react-parcel-boilerplate.firebaseapp.com/)
 
 This is a very simple react boilerplate with zero configuration, thanks to parceljs bundler.
