@@ -6,11 +6,10 @@ This is a very simple react boilerplate with zero configuration, thanks to parce
 
 ## Quick Setup
 
-1. Clone this repo using `git clone https://github.com/godfreyzubiaga/parcel-react-boilerplate.git your-folder-name`
-2. Redirect to proper folder `cd your-folder-name`
-3. Install dependencies `npm i` or `yarn`
-4. Start the boilerplate `npm run start`
-5. Enjoy! :)
+1. Run `npx generate-react-parcel-app folderName`
+2. Redirect to your folder `cd folderName`
+3. Start the project `npm run start`
+4. Enjoy! :)
 
 ## Features
 
@@ -18,6 +17,27 @@ This is a very simple react boilerplate with zero configuration, thanks to parce
 - ParcelJS `v1`
 - Babel
 - ESLint (Airbnb)
+
+## File Structure
+
+```bash
+.
+├── public
+│   └── index.html
+└── src
+    ├── assets
+    │   └── App.css
+    ├── components
+    │   └── App.jsx
+    ├── index.jsx
+    └── utils
+        └── mountPoint.js
+├── LICENSE.md
+├── package.json
+├── package-lock.json
+├── README.md
+
+```
 
 ## LICENSE
 
