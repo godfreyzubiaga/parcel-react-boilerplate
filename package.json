@@ -15,14 +15,14 @@
   "author": "Godfrey Zubiaga",
   "license": "MIT",
   "dependencies": {
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.10.3",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "parcel-bundler": "^1.11.0",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
     "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
