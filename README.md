@@ -17,7 +17,7 @@ This is a very simple react boilerplate with zero configuration, thanks to parce
 
 ## Features
 
-- ReactJS `v16`
+- ReactJS `v16.8 (with hooks)`
 - ParcelJS `v1`
 - Babel
 - ESLint (Airbnb)
@@ -42,7 +42,7 @@ This is a very simple react boilerplate with zero configuration, thanks to parce
 ├── .gitignore
 ├── .eslintrc.js
 ├── .browserslistrc
-├── .babelrc
+├── babel.config.js
 ```
 
 ## LICENSE
