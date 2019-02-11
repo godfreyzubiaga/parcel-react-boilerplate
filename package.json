@@ -1,6 +1,6 @@
 {
   "name": "parcel-react-boilerplate",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Just a very simple ReactJS with ParcelJS boilerplate",
   "main": "index.jsx",
   "scripts": {
@@ -15,7 +15,6 @@
   "author": "Godfrey Zubiaga",
   "license": "MIT",
   "dependencies": {
-    "parcel-bundler": "^1.11.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
   },
@@ -23,10 +22,11 @@
     "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
-    "eslint": "^5.7.0",
+    "eslint": "^5.13.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-react": "^7.11.1"
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "parcel-bundler": "^1.11.0"
   }
 }
