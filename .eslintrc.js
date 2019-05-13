@@ -1,7 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['airbnb', 'prettier', 'prettier/react'],
-  plugins: ['prettier', 'react', 'jsx-a11y'],
+  extends: ['airbnb', 'prettier/react'],
+  plugins: ['react', 'jsx-a11y'],
   env: {
     browser: true,
     node: true,
@@ -16,7 +16,6 @@ module.exports = {
     },
   },
   rules: {
-    'prettier/prettier': ['error'],
     'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
     'import/imports-first': 0,

@@ -1,5 +1,7 @@
 # ReactJS with ParcelJS Boilerplate
 
+This project is bootsraped with [generate-react-parcel-app](https://github.com/godfreyzubiaga/parcel-react-boilerplate)
+
 <p align="center">
 	<img src="https://res.cloudinary.com/starksten/image/upload/v1545892359/GRPA_Logo_2.png">
 </p>

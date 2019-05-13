@@ -25,7 +25,8 @@ const App = () => {
             className="link"
             id="footer"
             href="https://godfreyzubiaga.github.io"
-            target="_blank">
+            target="_blank"
+          >
             My Portfolio
           </a>
         </p>
