@@ -1,15 +1,13 @@
-module.exports = () => {
-  return {
-    presets: [
-      [
-        '@babel/preset-env',
-        {
-          targets: {
-            node: true,
-          },
+module.exports = () => ({
+  presets: [
+    [
+      '@babel/preset-env',
+      {
+        targets: {
+          node: true,
         },
-      ],
-      '@babel/preset-react',
+      },
     ],
-  };
-};
+    '@babel/preset-react',
+  ],
+});
