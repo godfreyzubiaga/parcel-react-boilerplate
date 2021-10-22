@@ -1,21 +1,20 @@
 module.exports = {
-  parser: 'babel-eslint',
-  extends: ['airbnb'],
-  plugins: ['react', 'jsx-a11y'],
   env: {
     browser: true,
-    node: true,
-    jest: true,
-    es6: true,
+    es2021: true,
   },
+  extends: ['plugin:react/recommended', 'airbnb'],
+  parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
+    ecmaVersion: 12,
+    sourceType: 'module',
   },
+  plugins: ['react', '@typescript-eslint'],
   rules: {
+    'import/extensions': ['never'],
     'arrow-body-style': [2, 'as-needed'],
     'class-methods-use-this': 0,
     'import/imports-first': 0,

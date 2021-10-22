@@ -19,8 +19,8 @@ This is a very simple react boilerplate with zero configuration, thanks to parce
 
 ## Features
 
-- ReactJS `v16.8 (with hooks)`
-- ParcelJS `v1`
+- ReactJS
+- Parcel
 - Babel
 - ESLint (Airbnb)
 
@@ -49,4 +49,4 @@ This is a very simple react boilerplate with zero configuration, thanks to parce
 
 ## LICENSE
 
-MIT license, Copyright (c) 2018 Godfrey Zubiaga
+MIT license, Copyright (c) 2021 Godfrey Zubiaga
